@@ -22,22 +22,34 @@ namespace Test_1
     {
         static void Main()
         {
+            // 用户输入
+            Console.WriteLine("请输入你的名字：");
+            string name = Console.ReadLine();
             //// 用户输入
             //Console.WriteLine("请输入你的名字：");
             //string name = Console.ReadLine();
 
+            Console.WriteLine("请输入你的年龄：");
+            string age = Console.ReadLine();
             //Console.WriteLine("请输入你的年龄：");
             //string age = Console.ReadLine();
 
+            Console.WriteLine("请输入你的班级：");
+            string className = Console.ReadLine();
             //Console.WriteLine("请输入你的班级：");
             //string className = Console.ReadLine();
 
+            Console.WriteLine("输入完毕！");
+            Console.ReadKey();
             //Console.WriteLine("输入完毕！");
             //Console.ReadKey();
 
+            Console.WriteLine("你喜欢什么运动？");
+            string sport = Console.ReadLine();
             //Console.WriteLine("你喜欢什么运动？");
             //string sport = Console.ReadLine();
 
+            Console.WriteLine($"好巧啊，{name}，我也喜欢 {sport}！");
             //Console.WriteLine($"好巧啊，{name}，我也喜欢 {sport}！");
 
 
